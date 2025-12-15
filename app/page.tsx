@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { buildICSForDay, downloadICS, type Task } from "@/utils/ics";
 
-const START_HOUR = 8;
+const START_HOUR = 8; 
 const END_HOUR = 20; // 8pm
 
 function ymd(d: Date) {
@@ -150,9 +150,7 @@ const hourRows: number[] = [];
           </div>
         </section>
 
-        <footer className="mt-6 text-xs text-gray-500">
-          Tip: Apple Calendar opens .ics directly. For Google Calendar, you can import the .ics in Settings → Import &amp; export.
-        </footer>
+ 
       </div>
     </main>
   );
