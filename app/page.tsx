@@ -93,14 +93,14 @@ const hourRows: number[] = [];
         <div className="mt-6 flex flex-wrap gap-3">
           <button
             onClick={exportToICS}
-            className="rounded-xl bg-black px-4 py-2 text-sm font-semibold text-white shadow-sm hover:opacity-90"
+            className="rounded-xl bg-black px-4 py-2 text-sm font-semibold text-white shadow-sm hover:opacity-90 cursor-pointer"
           >
             Export .ics (Apple/Google)
           </button>
 
           <button
             onClick={clearDay}
-            className="rounded-xl border border-gray-300 bg-white px-4 py-2 text-sm font-semibold shadow-sm hover:bg-gray-100"
+            className="rounded-xl border border-gray-300 bg-white px-4 py-2 text-sm font-semibold shadow-sm hover:bg-gray-100 cursor-pointer"
           >
             Clear day
           </button>
